@@ -25,26 +25,21 @@ header{
             color: white;
             text-decoration: none;
             font-size: 1.5rem;
-            transition: font-size 0.3s ease-in-out;
+            transition: color 0.3s ease-in-out;
         }
 
         & a:hover{
-            font-size: 1.6rem;
+            color: #FFC700;
         }
     }
 }
 
 #title{
     font-size: 2rem;
-    transition: font-size 0.3s ease-in-out; 
+    transition: color 0.3s ease-in-out; 
 }
 
-#title:hover{
-    font-size: 2.2rem;
-}
 
 .active {
-    border: solid 2px black;
-    border-radius: 5px;
-    padding: 5px;
+    color: #FFC700;
 }
