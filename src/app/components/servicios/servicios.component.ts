@@ -6,7 +6,7 @@ import { HeaderMenuComponent } from '../header-menu/header-menu.component';
   imports: [HeaderMenuComponent],
   template: `
     <main>
-      <h1>Servicios</h1>
+      <h1 class="text-3xl">Servicios</h1>
     </main>
   `,
   styles: ``
